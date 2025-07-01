@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Card.css';
 
-const Card = ({ title, description, image, bgColor }) => {
+const Card = ({ title, description, image, bgColor, onClick }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => setIsModalOpen(true);
@@ -19,6 +19,7 @@ const Card = ({ title, description, image, bgColor }) => {
         />
         <h2>{title}</h2>
         <p>{description}</p>
+        <button onClick={onClick}>Haz clic aquí</button>
       </div>
 
       {/* Modal */}
