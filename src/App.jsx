@@ -13,7 +13,7 @@ function App() {
     alert(`Has hecho clic en la card de ${nombre}`);
   };
 
-  // Datos de las cards
+
   const cards = {
     serafin: {
       title: 'La muerte de Marat',
@@ -39,14 +39,12 @@ function App() {
     <>
       <h1>Galería</h1>
 
-      {/* Botones para seleccionar la card */}
       <div style={{ display: 'flex', gap: '10px', marginBottom: '20px', justifyContent: 'center' }}>
         <Boton texto="La muerte de Marat" onClick={() => setSelectedCard('serafin')} />
         <Boton texto="El ángel caído" onClick={() => setSelectedCard('ana')} />
         <Boton texto="El último dia de Pompeya" onClick={() => setSelectedCard('carlos')} />
       </div>
 
-      {/* Card que se renderiza dinámicamente */}
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         {selectedCard && (  
           <Card

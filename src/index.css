@@ -1,42 +1,40 @@
-/* Reset y box-sizing */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Body con tipografía serif y fondo suave */
+
 body {
   font-family: 'Georgia', serif;
-  background-color: #f8f9fa; /* fondo claro elegante */
+  background-color: #f8f9fa; 
   padding: 2rem;
-  color: #2c3e50; /* texto azul oscuro suave */
+  color: #2c3e50; 
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Contenedor principal centrado y con ancho máximo */
 #root, main {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Encabezados */
+
 h1, h2, h3 {
   font-weight: 700;
   margin-bottom: 1rem;
   color: #1f2d3d;
 }
 
-/* Párrafos */
+
 p {
   font-size: 1rem;
   margin-bottom: 1rem;
   color: #34495e;
 }
 
-/* Enlaces */
+
 a {
   color: #2980b9;
   text-decoration: none;
@@ -46,12 +44,12 @@ a:hover {
   color: #1c5980;
 }
 
-/* Botones base para todos (por si quieres heredar algo) */
+
 button {
   font-family: 'Georgia', serif;
 }
 
-/* Scroll suave */
+
 html {
   scroll-behavior: smooth;
 }
