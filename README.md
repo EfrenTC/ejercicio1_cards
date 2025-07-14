@@ -1,12 +1,27 @@
-# React + Vite
+# 🎨 Cuadros Interactivos con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un pequeño proyecto hecho con **React** y **CSS** que permite mostrar imágenes de cuadros junto a su descripción al hacer clic en uno de los tres botones disponibles.
 
-Currently, two official plugins are available:
+## 🧠 Descripción del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La aplicación muestra tres botones, cada uno correspondiente a un cuadro diferente. Al pulsar cualquiera de ellos:
 
-## Expanding the ESLint configuration
+- Se despliega una **imagen** del cuadro.
+- Se muestra una breve **descripción** del mismo.
+- Solo un cuadro puede estar visible a la vez (se reemplazan al cambiar).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este proyecto es útil como práctica para trabajar con **eventos en React**, **estado (`useState`)** y **renderizado condicional**.
+
+## 🚀 Tecnologías usadas
+
+- [React](https://reactjs.org/) – para la estructura y lógica de componentes.
+- CSS – para los estilos y animaciones básicas.
+- JavaScript – para el manejo del estado y la lógica de interacción.
+
+
+## 📦 Instalación y uso
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/tuusuario/cuadros-react.git
